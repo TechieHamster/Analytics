@@ -12,3 +12,4 @@
 select * from {{ source('ecom' , 'raw_stores')}}
 
 {% endsnapshot %}
+
